@@ -16,4 +16,4 @@ Removes black background and makes it transparent.
 3. Run `npm run start` or `yarn start`
 
 ## Example 
-![Code_hMRFmsGc3p](https://user-images.githubusercontent.com/44122984/168501649-b3c8e4c8-44f3-441d-b58e-f7d8f03c6cc8.gif)
+![Code_HDkB7m0pV1](https://user-images.githubusercontent.com/44122984/168556901-8234324d-6c86-4bf7-9c5a-48c30d51700b.gif)
