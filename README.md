@@ -13,5 +13,9 @@ Utility to convert images to another format all at once.
 2. Place images in `/target` dir.
 3. Run `npm run start` or `yarn start`
 
+## Convert black background to transparent.
+
+I you can find this in this [branch](https://github.com/PawFV/UTILS--Img-Conversion/tree/feat/imagemagick), you'll need to have [imagemagick](https://imagemagick.org/script/download.php) installed in your system to make it work. 
+
 ## Example 
 ![Code_hMRFmsGc3p](https://user-images.githubusercontent.com/44122984/168501649-b3c8e4c8-44f3-441d-b58e-f7d8f03c6cc8.gif)
