@@ -2,6 +2,8 @@ import Jimp from 'jimp'
 import fs from 'fs-extra'
 import path from 'path'
 import { promptExtensions } from './src/prompt'
+import { sendSuccessMessage } from './src/successMessage';
+
 
 const init = async (buildDir = './build-images/', targetDir = './target/') => {
   const { extTarget, extToConvert } = await promptExtensions()
@@ -13,7 +15,7 @@ const init = async (buildDir = './build-images/', targetDir = './target/') => {
     jimp.write(buildDir + asset.replace(extTarget, extToConvert))
   })
 
-  return `Jog finished, check results in ${path.resolve(buildDir)}`
+  return sendSuccessMessage(path.resolve(buildDir));
 }
 
 init().then(console.log).catch(console.log)
