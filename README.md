@@ -4,8 +4,9 @@ Utility to convert images to another format all at once.
 
 ## Requirements
 
-[Nodejs](https://nodejs.org/en/).
-
+- [Nodejs](https://nodejs.org/en/).
+- [Imagemagick cli](https://imagemagick.org/script/download.php#windows)
+ 
 ## Instructions
 
 1. Clone this repository `git clone https://github.com/PawFV/UTILS--Img-Conversion.git`
