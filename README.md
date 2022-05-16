@@ -2,6 +2,8 @@
 
 Utility to convert images to another format all at once.
 
+If you need to remove black background and make it transparent please check [feat/imagemagick](https://github.com/PawFV/UTILS--Img-Conversion/tree/feat/imagemagick) branch.
+
 ## Requirements
 
 [Nodejs](https://nodejs.org/en/).
