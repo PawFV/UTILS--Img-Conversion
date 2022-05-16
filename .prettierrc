@@ -7,5 +7,5 @@
   "endOfLine": "auto",
   "arrowParens": "avoid",
   "htmlWhitespaceSensitivity": "ignore",
-  "printWidth": 100
+  "printWidth": 120
 }
