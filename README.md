@@ -1,6 +1,7 @@
 # img conversion
 
-Utility to convert images to another format all at once.
+Utility to convert images to another format all at once. 
+Removes black background and makes it transparent.
 
 ## Requirements
 
