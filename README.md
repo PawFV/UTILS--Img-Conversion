@@ -1,13 +1,15 @@
 # img conversion
 
-Utility to convert images to another format all at once.
+Utility to convert images to another format all at once. 
+Removes black background and makes it transparent.
 
 If you need to remove black background and make it transparent please check [feat/imagemagick](https://github.com/PawFV/UTILS--Img-Conversion/tree/feat/imagemagick) branch.
 
 ## Requirements
 
-[Nodejs](https://nodejs.org/en/).
-
+- [Nodejs](https://nodejs.org/en/).
+- [Imagemagick cli](https://imagemagick.org/script/download.php#windows)
+ 
 ## Instructions
 
 1. Clone this repository `git clone https://github.com/PawFV/UTILS--Img-Conversion.git`
@@ -20,4 +22,4 @@ If you need to remove black background and make it transparent please check [fea
 You can find this feature in this [branch](https://github.com/PawFV/UTILS--Img-Conversion/tree/feat/imagemagick), you'll need to have [imagemagick](https://imagemagick.org/script/download.php) installed in your system to make it work. 
 
 ## Example 
-![Code_hMRFmsGc3p](https://user-images.githubusercontent.com/44122984/168501649-b3c8e4c8-44f3-441d-b58e-f7d8f03c6cc8.gif)
+![Code_HDkB7m0pV1](https://user-images.githubusercontent.com/44122984/168556901-8234324d-6c86-4bf7-9c5a-48c30d51700b.gif)

@@ -2,8 +2,8 @@ import Jimp from 'jimp'
 import fs from 'fs-extra'
 import path from 'path'
 import { promptExtensions } from './src/prompt'
-import { sendSuccessMessage } from './src/successMessage';
-
+import { sendSuccessMessage } from './src/successMessage'
+import { exec } from 'child_process'
 
 const init = async (buildDir = './build-images/', targetDir = './target/') => {
   const { extTarget, extToConvert } = await promptExtensions()
@@ -15,7 +15,18 @@ const init = async (buildDir = './build-images/', targetDir = './target/') => {
     jimp.write(buildDir + asset.replace(extTarget, extToConvert))
   })
 
-  return sendSuccessMessage(path.resolve(buildDir));
+  setTimeout(() => {
+    targetAssets.forEach(asset => {
+      const assetSrc = path.resolve(buildDir + asset.replace(extTarget, extToConvert))
+
+      exec(`magick convert ${assetSrc} -transparent black ${assetSrc}`, (error, stdout, stderr) => {
+        if (error) console.log(`error: ${error.message}`)
+        if (stderr) console.log(`stderr: ${stderr}`)
+      })
+    })
+  }, 100)
+
+  return sendSuccessMessage(path.resolve(buildDir))
 }
 
 init().then(console.log).catch(console.log)

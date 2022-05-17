@@ -343,6 +343,13 @@
   dependencies:
     "@types/node" "*"
 
+"@types/imagemagick@^0.0.31":
+  version "0.0.31"
+  resolved "https://registry.yarnpkg.com/@types/imagemagick/-/imagemagick-0.0.31.tgz#781fda8d55eb5de3a9ab38749686539cfe1037b4"
+  integrity sha512-TT7Jd8YAWqHKM7tl5lnVMaTd+Pl6m6DrqFyyQ1SUVTBu6YqYcYabaELIFTEjmkC10ATpcpiscG8pNxB/0AeA9A==
+  dependencies:
+    "@types/node" "*"
+
 "@types/jimp@^0.2.28":
   version "0.2.28"
   resolved "https://registry.yarnpkg.com/@types/jimp/-/jimp-0.2.28.tgz#88dc2aae028eca50008d70c2f6926b2a2d4f30e7"
@@ -463,6 +470,13 @@ cycle@1.0.x:
   resolved "https://registry.yarnpkg.com/cycle/-/cycle-1.0.3.tgz#21e80b2be8580f98b468f379430662b046c34ad2"
   integrity sha1-IegLK+hYD5i0aPN5QwZisEbDStI=
 
+debug@^4.1.1:
+  version "4.3.4"
+  resolved "https://registry.yarnpkg.com/debug/-/debug-4.3.4.tgz#1319f6579357f2338d3337d2cdd4914bb5dcc865"
+  integrity sha512-PRWFHuSU3eDtQJPvnNY7Jcket1j0t5OuOsFzPPzsekD52Zl8qUfFIPEiswXqIvHWGVHOgX+7G/vCNNhehwxfkQ==
+  dependencies:
+    ms "2.1.2"
+
 diff@^4.0.1:
   version "4.0.2"
   resolved "https://registry.yarnpkg.com/diff/-/diff-4.0.2.tgz#60f3aecb89d5fae520c11aa19efc2bb982aade7d"
@@ -534,6 +548,13 @@ image-q@^4.0.0:
   integrity sha512-PfJGVgIfKQJuq3s0tTDOKtztksibuUEbJQIYT3by6wctQo+Rdlh7ef4evJ5NCdxY4CfMbvFkocEwbl4BF8RlJw==
   dependencies:
     "@types/node" "16.9.1"
+
+imagemagick-cli@^0.5.0:
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/imagemagick-cli/-/imagemagick-cli-0.5.0.tgz#907cb841787dd0548b2e9ab7cbc4d0fdb9efc55d"
+  integrity sha512-rlFbd3MrjysdavK0vUnwUxWvuEBHzXaK3LHVqBUIM6u+noKg5Vv2YljVmu78qEkDNIQ1+AS+17f3mgNMIe/Rlw==
+  dependencies:
+    debug "^4.1.1"
 
 is-function@^1.0.1:
   version "1.0.2"
@@ -612,6 +633,11 @@ mkdirp@^0.5.1:
   integrity sha512-FP+p8RB8OWpF3YZBCrP5gtADmtXApB5AMLn+vdyA+PyxCjrCs00mjyUozssO33cwDeT3wNGdLxJ5M//YqtHAJw==
   dependencies:
     minimist "^1.2.6"
+
+ms@2.1.2:
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/ms/-/ms-2.1.2.tgz#d09d1f357b443f493382a8eb3ccd183872ae6009"
+  integrity sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==
 
 mute-stream@~0.0.4:
   version "0.0.8"
